@@ -95,6 +95,7 @@ export default {
         }).then(res => {
             const {data} = res.data;
             // 把数组保存到banners
+            console.log(data);
             this.banners = data;
         });
 
